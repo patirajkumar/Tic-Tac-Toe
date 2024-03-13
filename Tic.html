@@ -1,0 +1,58 @@
+<html>
+ <head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>TIC - TAC - TOE GAME </title>
+   <link rel="stylesheet" type="text/css" href="tic.css">
+   <script type="text/javascript" src="tic.js"></script>
+ </head>
+ <body> 
+   <div id="main">
+     <h1> TIC TAC TOE </h1>
+     <p id="ins">Game starts by just Tap on box
+       <br>First Player starts as <b> Player X </b>
+       <br> And
+       <br> Second Player starts as <b> Player 0 </b>
+     </p><br>
+     <div class="table">
+       <table>
+         <tr>
+           <td>
+             <input type="text" id="b1" onclick="fun3(); fun1()" />
+           </td>
+           <td class="v">
+             <input type="text" id="b2" onclick="fun4(); fun1()" />
+           </td>
+           <td>
+             <input type="text" id="b3" onclick="fun5(); fun1()" />
+           </td>
+         </tr>
+         <tr>
+           <td class="h">
+             <input type="text" id="b4" onclick="fun6(); fun1()" />
+           </td>
+           <td class="v h">
+             <input type="text" id="b5" onclick="fun7(); fun1()" />
+           </td>
+           <td class="h">
+             <input type="text" id="b6" onclick="fun8(); fun1()" />
+           </td>
+         </tr>
+         <tr>
+           <td>
+             <input type="text" id="b7" onclick="fun9(); fun1()" />
+           </td>
+           <td class="v">
+             <input type="text" id="b8" onclick="fun10(); fun1()" />
+           </td>
+           <td>
+             <input type="text" id="b9" onclick="fun11(); fun1()" />
+           </td>
+         </tr>
+       </table> 
+     </div>
+     <button id="but" onclick="fun2()"> RESET </button>
+     <br><br>
+     <p id="print"></p>
+   </div>
+ </body>
+</html>
