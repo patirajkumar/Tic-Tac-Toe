@@ -1,0 +1,66 @@
+body {
+ background-color: azure;
+ font-family: Verdana,Geneva, Tahoma, sans-serif; 
+ font-size: 20px;
+ text-transform: uppercase;
+ background-image: url("C:/proj/images (5).jpeg");
+}
+h1 {
+ color: teal;
+ text-shadow: 4px 4px lightblue;
+ font-size: 45px;
+}
+#b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9 {
+ width: 80px;
+ height: 60px;
+ margin: 15px;
+ box-shadow: 2px 2px darkcyan;
+ border: 2px solid turquoise;
+ border-radius: 6px;
+ font-size: 30px;
+ font-weight: bold;
+ color: red ;
+ background-color: lavender;
+ text-align: center;
+}
+.table {
+ display: flex;
+ justify-content: center;
+}
+.v {
+ border-left: 2px solid white;
+ border-right: 2px solid white;
+}
+.h {
+ border-top: 2px solid white;
+ border-bottom: 2px solid white;
+}
+#but {
+ box-sizing: border-box;
+ padding: 15px 20px; 
+ border: 2px solid royalblue;
+ margin: 15px;
+ border-radius: 10px;
+ background-color: skyblue;
+ color: indigo;
+ font-size: 20px;
+ cursor: pointer;
+ font-weight: bold;
+}
+button:hover {
+ text-decoration: underline;
+ color: royalblue !important;
+ background: silver !important;
+ box-shadow: 3px 3px;
+}
+#print {
+ color: lightgoldenrodyellow;
+ font-size: 22px;
+}
+#main {
+ text-align: center;
+}
+#ins { 
+ color: lightgreen;
+ font-size: 20px;
+}
